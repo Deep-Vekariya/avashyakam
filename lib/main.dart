@@ -1,12 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'demo.dart';
-import 'modules/store/canteen_consumer_slider.dart';
-import 'modules/store/centeen/all_product_canteen.dart';
-import 'modules/store/centeen/special/special.dart';
 import 'modules/store/store.dart';
-import 'modules/store/consumer/all_product_consumer.dart';
-import 'modules/store/consumer/catagory.dart';
 
 void main() {
   runApp(const MyApp());

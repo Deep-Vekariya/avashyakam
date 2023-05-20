@@ -12,7 +12,6 @@ class StoreScreen extends StatefulWidget {
 }
 
 class _StoreScreenState extends State<StoreScreen> {
-  List<String> items = ["Consumer", "canteen"];
   List<Widget> pages = <Widget>[
     const AllProductConsumer(),
     const AllProductCanteen()
@@ -27,8 +26,6 @@ class _StoreScreenState extends State<StoreScreen> {
 
   @override
   Widget build(BuildContext context) {
-    double size = MediaQuery.of(context).size.width;
-
     return Scaffold(
       body: Column(
         children: [
@@ -37,20 +34,23 @@ class _StoreScreenState extends State<StoreScreen> {
             padding:
                 const EdgeInsets.only(top: 50.0, right: 5, left: 5, bottom: 0),
             child: Container(
-                height: 45,
-                decoration: BoxDecoration(
-                  color: Colors.green,
-                  borderRadius: BorderRadius.circular(25.0),
-                ),
-                child: StoreSwitch(
-                  items: const ['Canteen', 'Consumer'],
-                  currentIndex: currentIndex,
-                  onTap: (index) {
-                    setState(() {
+              height: 45,
+              decoration: BoxDecoration(
+                color: Colors.green,
+                borderRadius: BorderRadius.circular(25.0),
+              ),
+              child: StoreSwitch(
+                items: const ['Canteen', 'Consumer'],
+                currentIndex: currentIndex,
+                onTap: (index) {
+                  setState(
+                    () {
                       currentIndex = index;
-                    });
-                  },
-                )),
+                    },
+                  );
+                },
+              ),
+            ),
           ),
 
           // how to change state from current index

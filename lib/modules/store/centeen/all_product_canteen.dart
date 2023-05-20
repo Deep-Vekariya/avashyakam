@@ -1,7 +1,5 @@
-import 'package:demo/models/consumer_product.dart';
 import 'package:flutter/material.dart';
-
-import '../../../models/canteen_product.dart';
+import '../../../models/consumer_product.dart';
 import '../product_componunt/product_componunt.dart';
 
 class AllProductCanteen extends StatelessWidget {
@@ -9,15 +7,17 @@ class AllProductCanteen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GridView.builder(
-      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: 2,
-        mainAxisExtent: 240,
-      ),
-      itemCount: canteenproducts.length,
-      itemBuilder: (context, index) => ProductComponunt(
-        itemIndex: index,
-        product: consumerproducts[index],
+    return Expanded(
+      child: GridView.builder(
+        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+          crossAxisCount: 2,
+          mainAxisExtent: 240,
+        ),
+        itemCount: consumerproducts.length,
+        itemBuilder: (context, index) => ProductComponunt(
+          itemIndex: index,
+          product: consumerproducts[index],
+        ),
       ),
     );
   }
