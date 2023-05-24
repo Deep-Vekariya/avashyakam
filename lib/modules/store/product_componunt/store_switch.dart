@@ -39,8 +39,10 @@ class _StoreSwitchState extends State<StoreSwitch> {
                 width: (MediaQuery.of(context).size.width / 2) - 5,
                 height: 45,
                 decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(25),
-                  color: currentIndex == index ? Colors.white70 : Colors.green,
+                  borderRadius: BorderRadius.circular(10),
+                  color: currentIndex == index
+                      ? const Color(0xff3BACB6)
+                      : const Color(0xffB3E8E5),
                   border: currentIndex == index
                       ? Border.all(
                           color: Colors.black,

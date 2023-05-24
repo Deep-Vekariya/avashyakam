@@ -1,3 +1,5 @@
+// ignore_for_file: unused_element
+
 import 'package:demo/modules/store/centeen/all_product_canteen.dart';
 import 'package:demo/modules/store/product_componunt/store_switch.dart';
 import 'package:flutter/material.dart';
@@ -36,8 +38,8 @@ class _StoreScreenState extends State<StoreScreen> {
             child: Container(
               height: 45,
               decoration: BoxDecoration(
-                color: Colors.green,
-                borderRadius: BorderRadius.circular(25.0),
+                color: const Color(0xffB3E8E5),
+                borderRadius: BorderRadius.circular(10),
               ),
               child: StoreSwitch(
                 items: const ['Canteen', 'Consumer'],
@@ -53,41 +55,10 @@ class _StoreScreenState extends State<StoreScreen> {
             ),
           ),
 
-          // how to change state from current index
+          // change curent product according to slider
           pages[currentIndex]
         ],
       ),
-
-      // body: Padding(
-      //   padding: const EdgeInsets.only(top: 50.0),
-      //   child: Row(
-      //     mainAxisAlignment: MainAxisAlignment.center,
-      //     children: [
-      //       SizedBox(
-      //           width: (width / 2) - 10,
-      //           height: 50,
-      //           child: OutlinedButton(
-      //             style: OutlinedButton.styleFrom(
-      //               backgroundColor: Colors.black,
-      //               foregroundColor: Colors.amberAccent,
-      //             ),
-      //             onPressed: () {},
-      //             child: const Text("Canteen"),
-      //           )),
-      //       SizedBox(
-      //           width: (width / 2) - 10,
-      //           height: 50,
-      //           child: OutlinedButton(
-      //             style: OutlinedButton.styleFrom(
-      //               foregroundColor: Colors.amberAccent,
-      //               backgroundColor: Colors.black, //<-- SEE HERE
-      //             ),
-      //             onPressed: () {},
-      //             child: const Text("Consumer"),
-      //           )),
-      //     ],
-      //   ),
-      // ),
     );
   }
 }

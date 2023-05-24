@@ -20,7 +20,7 @@ class ProductComponunt extends StatelessWidget {
         // width: 170,
         // height: 230,
         decoration: BoxDecoration(
-          color: Colors.grey[400],
+          color: Colors.white,
           borderRadius: BorderRadius.circular(20),
         ),
         child: Column(
