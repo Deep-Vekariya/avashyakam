@@ -1,4 +1,4 @@
-import 'package:demo/models/consumer_product.dart';
+import 'package:demo/models/product.dart';
 import 'package:flutter/material.dart';
 
 class ProductComponunt extends StatelessWidget {

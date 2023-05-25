@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
-import '../../../models/consumer_product.dart';
+import '../../../models/product.dart';
 import '../product_componunt/product_componunt.dart';
 
-class AllProductConsumer extends StatelessWidget {
-  const AllProductConsumer({super.key});
+class Consumer extends StatelessWidget {
+  const Consumer({super.key});
 
   @override
   Widget build(BuildContext context) {

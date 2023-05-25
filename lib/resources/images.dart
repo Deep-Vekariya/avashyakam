@@ -1,37 +1,34 @@
-class Resources {
-  // consumer images
-  String img1 = "assets/images/1.jpg";
-  String img2 = "assets/images/2.jpg";
-  String img3 = "assets/images/3.jpg";
-  String img4 = "assets/images/4.jpg";
-  String img5 = "assets/images/5.jpg";
-  String img6 = "assets/images/6.jpg";
-  String img7 = "assets/images/7.jpg";
-  String img8 = "assets/images/8.jpg";
-  String img9 = "assets/images/9.jpeg";
-  String img11 = "assets/images/11.jpg";
-  String img12 = "assets/images/12.jpg";
-  String img13 = "assets/images/13.jpg";
-  String img14 = "assets/images/apple.png";
-  String img15 = "assets/images/burger.jpeg";
-  String img16 = "assets/images/Duck.png";
-  String img17 = "assets/images/google.png";
-  String img18 = "assets/images/long.jpg";
-
-  // canteen images
-  String burger = "assets/images/burger.png";
-  String coffee = "assets/images/coffee.png";
-  String dhosa = "assets/images/dhosa.png";
-  String donuts = "assets/images/donuts.png";
-  String frankie = "assets/images/frankie.png";
-  String fries = "assets/images/fries.png";
-  String idli = "assets/images/idli.png";
-  String manchurian = "assets/images/manchurian.png";
-  String noodles = "assets/images/noodles.png";
-  String panipuri = "assets/images/panipuri.png";
-  String pizza = "assets/images/pizza.png";
-  String pulav = "assets/images/pulav.png";
-  String sandwich = "assets/images/sandwich.png";
-  String tea = "assets/images/tea.png";
-  String vadapav = "assets/images/vadapav.png";
+class Images {
+  static const img1 = "assets/images/1.jpg";
+  static const img2 = "assets/images/2.jpg";
+  static const img3 = "assets/images/3.jpg";
+  static const img4 = "assets/images/4.jpg";
+  static const img5 = "assets/images/5.jpg";
+  static const img6 = "assets/images/6.jpg";
+  static const img7 = "assets/images/7.jpg";
+  static const img8 = "assets/images/8.jpg";
+  static const img9 = "assets/images/9.jpeg";
+  static const img11 = "assets/images/11.jpg";
+  static const img12 = "assets/images/12.jpg";
+  static const img13 = "assets/images/13.jpg";
+  static const img14 = "assets/images/apple.png";
+  static const img15 = "assets/images/burger.jpeg";
+  static const img16 = "assets/images/Duck.png";
+  static const img17 = "assets/images/google.png";
+  static const img18 = "assets/images/long.jpg";
+  static const burger = "assets/images/burger.png";
+  static const coffee = "assets/images/coffee.png";
+  static const dhosa = "assets/images/dhosa.png";
+  static const donuts = "assets/images/donuts.png";
+  static const frankie = "assets/images/frankie.png";
+  static const fries = "assets/images/fries.png";
+  static const idli = "assets/images/idli.png";
+  static const manchurian = "assets/images/manchurian.png";
+  static const noodles = "assets/images/noodles.png";
+  static const panipuri = "assets/images/panipuri.png";
+  static const pizza = "assets/images/pizza.png";
+  static const pulav = "assets/images/pulav.png";
+  static const sandwich = "assets/images/sandwich.png";
+  static const tea = "assets/images/tea.png";
+  static const vadapav = "assets/images/vadapav.png";
 }

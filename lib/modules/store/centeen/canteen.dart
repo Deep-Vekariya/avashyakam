@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import '../../../models/consumer_product.dart';
+import '../../../models/product.dart';
 import '../product_componunt/product_componunt.dart';
 
-class AllProductCanteen extends StatelessWidget {
-  const AllProductCanteen({super.key});
+class Canteen extends StatelessWidget {
+  const Canteen({super.key});
 
   @override
   Widget build(BuildContext context) {

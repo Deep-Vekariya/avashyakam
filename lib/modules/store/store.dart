@@ -1,9 +1,9 @@
 // ignore_for_file: unused_element
 
-import 'package:demo/modules/store/centeen/all_product_canteen.dart';
+import 'package:demo/modules/store/centeen/canteen.dart';
 import 'package:demo/modules/store/product_componunt/store_switch.dart';
 import 'package:flutter/material.dart';
-import 'consumer/all_product_consumer.dart';
+import 'consumer/consumer.dart';
 
 class StoreScreen extends StatefulWidget {
   const StoreScreen({super.key});
@@ -14,10 +14,7 @@ class StoreScreen extends StatefulWidget {
 
 class _StoreScreenState extends State<StoreScreen> {
   TextEditingController textEditingController = TextEditingController();
-  List<Widget> pages = <Widget>[
-    const AllProductConsumer(),
-    const AllProductCanteen()
-  ];
+  List<Widget> pages = <Widget>[const Consumer(), const Canteen()];
   int currentIndex = 0;
 
   void _onItemTapped(int index) {
