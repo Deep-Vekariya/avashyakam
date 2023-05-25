@@ -16,24 +16,18 @@ class ProductComponunt extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(10.0),
       // main container of item
-      child: Container(
-        // width: 170,
-        // height: 230,
-        decoration: BoxDecoration(
-          color: Colors.white,
-          borderRadius: BorderRadius.circular(20),
+      child: Card(
+        elevation: 10,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(15),
         ),
         child: Column(
           children: [
             // 1st container for image
             Padding(
               padding: const EdgeInsets.all(10.0),
-              child: Container(
+              child: SizedBox(
                 height: 130,
-                decoration: BoxDecoration(
-                  // color: Colors.red,
-                  borderRadius: BorderRadius.circular(20),
-                ),
                 child: Image.asset(
                   product.image,
                   fit: BoxFit.cover,

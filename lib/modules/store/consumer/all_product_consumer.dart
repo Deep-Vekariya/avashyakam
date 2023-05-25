@@ -11,7 +11,7 @@ class AllProductConsumer extends StatelessWidget {
       child: GridView.builder(
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 2,
-          mainAxisExtent: 240,
+          mainAxisExtent: 250,
         ),
         itemCount: consumerproducts.length,
         itemBuilder: (context, index) => ProductComponunt(

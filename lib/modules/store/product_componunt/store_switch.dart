@@ -41,14 +41,17 @@ class _StoreSwitchState extends State<StoreSwitch> {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
                   color: currentIndex == index
-                      ? const Color(0xff3BACB6)
-                      : const Color(0xffB3E8E5),
+                      ? const Color(0xff146C94)
+                      : const Color(0xffffffff),
                   border: currentIndex == index
                       ? Border.all(
                           color: Colors.black,
                           width: 2,
                         )
-                      : null,
+                      : Border.all(
+                          color: Colors.black,
+                          width: 0.5,
+                        ),
                 ),
                 child: Center(
                   child: Text(

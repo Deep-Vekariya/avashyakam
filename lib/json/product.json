@@ -1,0 +1,166 @@
+{
+  "Product": [
+    {
+      "name": "Apple",
+      "image": "Resources{}.img14",
+      "price": "₹1500",
+      "id": "001"
+    },
+    {
+      "name": "Duck",
+      "image": "Resources{}.img16",
+      "price": "₹100",
+      "id": "002"
+    },
+    {
+      "name": "Google",
+      "image": "Resources{}.img17",
+      "price": "₹4500",
+      "id": "003"
+    },
+    {
+      "name": "burger",
+      "image": "Resources{}.img15",
+      "price": "₹45",
+      "id": "004"
+    },
+    {
+      "name": "photo with frame",
+      "image": "Resources{}.img18",
+      "price": "₹4500",
+      "id": "005"
+    },
+    {
+      "name": "model",
+      "image": "Resources{}.img12",
+      "price": "₹400",
+      "id": "006"
+    },
+    {
+      "name": "Writing pad",
+      "image": "Resources{}.img11",
+      "price": "₹4500",
+      "id": "007"
+    },
+    {
+      "name": "Face Mask",
+      "image": "Resources{}.img9",
+      "price": "₹20",
+      "id": "008"
+    },
+    {
+      "name": "Flower",
+      "image": "Resources{}.img8",
+      "price": "₹35",
+      "id": "009"
+    },
+    {
+      "name": "Stickers",
+      "image": "Resources{}.img6",
+      "price": "₹10",
+      "id": "010"
+    },
+    {
+      "name": "Stickers",
+      "image": "Resources{}.img6",
+      "price": "₹10",
+      "id": "011"
+    },
+    {
+      "name": "Stickers",
+      "image": "Resources{}.img6",
+      "price": "₹10",
+      "id": "012"
+    },
+    {
+      "name": "Stickers",
+      "image": "Resources{}.img6",
+      "price": "₹10",
+      "id": "013"
+    },
+    {
+      "name": "burger",
+      "image": "Resources{}.burger",
+      "price": "₹60",
+      "id": "001"
+    },
+    {
+      "name": "coffee",
+      "image": "Resources{}.coffee",
+      "price": "₹30",
+      "id": "002"
+    },
+    {
+      "name": "dhosa",
+      "image": "Resources{}.dhosa",
+      "price": "₹80",
+      "id": "003"
+    },
+    {
+      "name": "donuts",
+      "image": "Resources{}.donuts",
+      "price": "₹125",
+      "id": "004"
+    },
+    {
+      "name": "fries",
+      "image": "Resources{}.fries",
+      "price": "₹50",
+      "id": "006"
+    },
+    {
+      "name": "idli",
+      "image": "Resources{}.idli",
+      "price": "₹30",
+      "id": "007"
+    },
+    {
+      "name": "manchurian",
+      "image": "Resources{}.manchurian",
+      "price": "₹60",
+      "id": "008"
+    },
+    {
+      "name": "noodles",
+      "image": "Resources{}.noodles",
+      "price": "₹75",
+      "id": "009"
+    },
+    {
+      "name": "panipuri",
+      "image": "Resources{}.panipuri",
+      "price": "₹20",
+      "id": "010"
+    },
+    {
+      "name": "pizza",
+      "image": "Resources{}.pizza",
+      "price": "₹150",
+      "id": "011"
+    },
+    {
+      "name": "pulav",
+      "image": "Resources{}.pulav",
+      "price": "₹65",
+      "id": "012"
+    },
+    {
+      "name": "sandwich",
+      "image": "Resources{}.sandwich",
+      "price": "₹90",
+      "id": "013"
+    },
+    {
+      "name": "tea",
+      "image": "Resources{}.tea",
+      "price": "₹10",
+      "id": "014"
+    },
+    {
+      "name": "vadapav",
+      "image": "Resources{}.vadapav",
+      "price": "₹25",
+      "id": "015"
+    }
+  ]
+}
